@@ -122,20 +122,19 @@ p{
     -moz-transition: all 0.5s;
     transition: all 0.5s;
   }
-  a:not([href]):not([class]), a:not([href]):not([class]):hover {
-    color: white !important;
-    text-decoration: none;
-}
-/**/
+
+
+/* */
 .texto2{
     font-size:1em;
 }
 
 .card {
     position: relative !important;
-    width: 300px;
-    height: 350px !important;
-    margin: 20px;
+    width: 267px;
+    height: 355px !important;
+    margin: 6px;
+    margin-top: 3%;
     float: left;
 }
 
@@ -214,8 +213,24 @@ p{
 
 /**/
   
+/* */
+
+
+p{
+    text-align:center;
+    font-size:7em;
+    margin:20px 0 20px 0; 
+  }
+  
+  a{
+    text-decoration:none; 
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
   p:nth-child(1) a{
-    color:#FF1177;
+    color:rgb(0, 149, 255);
     font-family:Monoton;
   }
   p:nth-child(1) a:hover{
@@ -224,58 +239,58 @@ p{
     animation: neon1 1.5s ease-in-out infinite alternate; 
   }
   
-  
   p a:hover{
   color:#ffffff;  
   }
+
+  a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: aqua !important;
+    text-decoration: none; 
+}
   
-  
-  
-  /*glow for webkit*/
   @-webkit-keyframes neon1 {
     from {
       text-shadow: 0 0 10px #fff,
                  0 0 20px  #fff,
                  0 0 30px  #fff,
-                 0 0 40px  #FF1177,
-                 0 0 70px  #FF1177,
-                 0 0 80px  #FF1177,
-                 0 0 100px #FF1177,
-                 0 0 150px #FF1177;
+                 0 0 40px  rgb(0, 149, 255),
+                 0 0 70px  rgb(0, 149, 255),
+                 0 0 80px  rgb(0, 149, 255),
+                 0 0 100px rgb(0, 149, 255),
+                 0 0 150px rgb(0, 149, 255);
     }
     to {
       text-shadow: 0 0 5px #fff,
                  0 0 10px #fff,
                  0 0 15px #fff,
-                 0 0 20px #FF1177,
-                 0 0 35px #FF1177,
-                 0 0 40px #FF1177,
-                 0 0 50px #FF1177,
-                 0 0 75px #FF1177;
+                 0 0 20px rgb(0, 149, 255),
+                 0 0 35px rgb(0, 149, 255),
+                 0 0 40px rgb(0, 149, 255),
+                 0 0 50px rgb(0, 149, 255),
+                 0 0 75px rgb(0, 149, 255);
     }
   }
   
-  /*glow for mozilla*/
   @-moz-keyframes neon1 {
     from {
       text-shadow: 0 0 10px #fff,
                  0 0 20px  #fff,
                  0 0 30px  #fff,
-                 0 0 40px  #FF1177,
-                 0 0 70px  #FF1177,
-                 0 0 80px  #FF1177,
-                 0 0 100px #FF1177,
-                 0 0 150px #FF1177;
+                 0 0 40px  rgb(0, 149, 255),
+                 0 0 70px  rgb(0, 149, 255),
+                 0 0 80px  rgb(0, 149, 255),
+                 0 0 100px rgb(0, 149, 255),
+                 0 0 150px rgb(0, 149, 255);
     }
     to {
       text-shadow: 0 0 5px #fff,
                  0 0 10px #fff,
                  0 0 15px #fff,
-                 0 0 20px #FF1177,
-                 0 0 35px #FF1177,
-                 0 0 40px #FF1177,
-                 0 0 50px #FF1177,
-                 0 0 75px #FF1177;
+                 0 0 20px rgb(255, 0, 0),
+                 0 0 35px rgb(255, 0, 0),
+                 0 0 40px rgb(255, 0, 0),
+                 0 0 50px rgb(255, 0, 0),
+                 0 0 75px rgb(255, 0, 0);
     }
   }
   
@@ -284,24 +299,23 @@ p{
       text-shadow: 0 0 10px #fff,
                  0 0 20px  #fff,
                  0 0 30px  #fff,
-                 0 0 40px  #FF1177,
-                 0 0 70px  #FF1177,
-                 0 0 80px  #FF1177,
-                 0 0 100px #FF1177,
-                 0 0 150px #FF1177;
+                 0 0 40px  rgb(255, 0, 0),
+                 0 0 70px  rgb(255, 0, 0),
+                 0 0 80px  rgb(255, 0, 0),
+                 0 0 100px rgb(255, 0, 0),
+                 0 0 150px rgb(255, 0, 0);
     }
     to {
       text-shadow: 0 0 5px #fff,
                  0 0 10px #fff,
                  0 0 15px #fff,
-                 0 0 20px #FF1177,
-                 0 0 35px #FF1177,
-                 0 0 40px #FF1177,
-                 0 0 50px #FF1177,
-                 0 0 75px #FF1177;
+                 0 0 20px rgb(0, 149, 255),
+                 0 0 35px rgb(0, 149, 255),
+                 0 0 40px rgb(0, 149, 255),
+                 0 0 50px rgb(0, 149, 255),
+                 0 0 75px rgb(0, 149, 255);
     }
   }
-  
   
   @media (max-width: 650px) {
     
@@ -315,6 +329,7 @@ p{
   
   }
 
+/* */
 
 @media(min-width:300px) and (max-width:1024px){
     .blue-bg {
