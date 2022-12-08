@@ -53,7 +53,7 @@ body {
     min-height: 500px;
     margin: 210px 0px;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     z-index: -1;
 }
 
@@ -70,8 +70,15 @@ body {
     object-fit: cover;
     float: left;
     margin-right: 1%;
-    
+}
 
+.love2 {
+    width: 24%;
+    height: 18vw;
+    border-radius: 7px;
+    object-fit: cover;
+    float: right;
+    margin-left: 1%;
 }
 .content {
     position: absolute;
@@ -231,5 +238,34 @@ p{
         width: 184vw;
         z-index: -1;
         overflow-x: hidden;
+    }
+
+    .white-bg {
+        position: absolute;
+        top: 50%;
+        background-color: #fff;
+        min-height: 500px;
+        margin: 210px 0px;
+        width: 100vw;
+        height: 250vh;
+        z-index: -1;
+    }
+
+    .love {
+        width: 55%;
+        height: 50vw;
+        border-radius: 7px;
+        object-fit: cover;
+        float: left;
+        margin-right: 1%;
+    }
+
+    .love2 {
+        width: 55%;
+        height: 50vw;
+        border-radius: 7px;
+        object-fit: cover;
+        float: right;
+        margin-left: 1%;
     }
 }
