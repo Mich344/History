@@ -144,14 +144,14 @@ body {
 }
 
 @media(min-width:300px) and (max-width:1024px){
-     .blue-bg {
+    .blue-bg {
         position: fixed;
         background-size: cover;
-        background-color: #58aff6;
-        top: -37%;
-        height: 192vw;
-        width: 179vw;
+        background-color: rgb(88, 175, 246);
+        top: -25%;
+        height: 215vw;
+        width: 184vw;
         z-index: -1;
         overflow-x: hidden;
-    } 
+    }
 }
