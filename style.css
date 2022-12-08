@@ -30,7 +30,7 @@ body {
     position: fixed;
     background-size: cover;
     background-color: #58aff6;
-    top: -37%;
+    top: -6%;
     height: 300vw;
     width: 101vw;
     z-index: -1;
@@ -141,4 +141,17 @@ body {
 
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
+}
+
+@media(min-width:300px) and (max-width:1024px){
+     .blue-bg {
+        position: fixed;
+        background-size: cover;
+        background-color: #58aff6;
+        top: -37%;
+        height: 192vw;
+        width: 179vw;
+        z-index: -1;
+        overflow-x: hidden;
+    } 
 }
