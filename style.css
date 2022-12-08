@@ -148,7 +148,7 @@ body {
         position: fixed;
         background-size: cover;
         background-color: rgb(88, 175, 246);
-        top: -25%;
+        top: -10%;
         height: 215vw;
         width: 184vw;
         z-index: -1;
