@@ -371,4 +371,14 @@ p{
         float: right;
         margin-left: 1%;
     }
+
+    .card {
+        position: relative !important;
+        width: 267px;
+        height: 355px !important;
+        margin: 6px;
+        margin-top: 3%;
+        float: left;
+        margin-left: 11%;
+    }
 }
